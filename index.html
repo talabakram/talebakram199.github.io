@@ -34,16 +34,17 @@
     }
 
     /* ===== Fond animé ===== */
-    body::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: linear-gradient(45deg, #0a0a0a, #1a1a1a, #0a0a0a, #1a1a1a);
-      background-size: 400% 400%;
-      animation: gradientAnim 15s ease infinite;
-      z-index: -3;
-    }
+  body::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(135deg, #ffffff, #e0f7ff, #f0faff);
+  background-size: 400% 400%;
+  animation: gradientAnim 20s ease infinite;
+  z-index: -3;
+}
+
 
     @keyframes gradientAnim {
       0% {background-position: 0% 50%;}
